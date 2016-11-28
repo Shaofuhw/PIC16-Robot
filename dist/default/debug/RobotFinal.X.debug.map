@@ -1,0 +1,152 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Jan 25 19:24:46 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000002
+                   .org_2       code   0x000006    program   0x00031a
+                    dbgP0       code   0x000f00    program   0x0001fe
+.config_2007_BUILD/DEFAULT/DEBUG/PRINCIPAL.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/DEBUG/PRINCIPAL.O       code   0x002008    program   0x000002
+                    dbgD0      udata   0x000070       data   0x000001
+                    dbgD1      udata   0x0000f0       data   0x000001
+                    dbgD2      udata   0x000165       data   0x00000b
+                    dbgD3      udata   0x000170       data   0x000001
+                    dbgD4      udata   0x0001f0       data   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000004      
+                            0x000006    0x000192      
+                            0x000f00    0x000ffe      
+                            0x002007    0x002008      
+            658 out of 4359 program addresses used, program memory utilization is 15%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  APLAUSO   0x0000c4    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   BAJADA   0x000156    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    BUCLE   0x000010    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                   BUCLE2   0x00001e    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                   CCPINT   0x00014c    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                     CERO   0x0000e3    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CINCO   0x000135    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   CNTPAL   0x0000cf    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   CUATRO   0x000125    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN2   0x0000b7    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN3   0x0000ba    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN4   0x0000bc    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN5   0x0000bf    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN6   0x0000c1    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   CUENTA   0x0000a3    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA2   0x0000a8    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA3   0x0000ab    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA4   0x0000ad    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA5   0x0000b0    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA6   0x0000b2    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    DELAY   0x000061    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                      DOS   0x000105    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                     ES01   0x00001b    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                     ES23   0x000018    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                     ES45   0x000015    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                   INICIO   0x000006    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                  INI_ADC   0x000054    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                 INI_CCP2   0x00006e    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                   INI_ES   0x000029    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                  INI_INT   0x000044    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                  INI_OSC   0x000024    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                 INI_TMR2   0x000066    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+             INTERRUPCION   0x000078    program     static C:\Users\Eva\Desktop\RobotFinal.X\INTERRUPCION.INC
+                      LDR   0x000099    program     static C:\Users\Eva\Desktop\RobotFinal.X\LDR.INC
+                  LEDSNO0   0x0000f0    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO1   0x000100    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO2   0x000110    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO3   0x000120    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO4   0x000130    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   LED_ON   0x00009f    program     static C:\Users\Eva\Desktop\RobotFinal.X\LDR.INC
+                     LOOP   0x000063    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                   NOCERO   0x0000d1    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                 NOOBSTAC   0x00018a    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   OBSTAC   0x000166    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  RETARDO   0x0000a1    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                 RETARDO2   0x0000a6    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                 RETARDO3   0x0000b5    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    SIGUE   0x000087    program     static C:\Users\Eva\Desktop\RobotFinal.X\INTERRUPCION.INC
+                   SIGUE1   0x00008f    program     static C:\Users\Eva\Desktop\RobotFinal.X\INTERRUPCION.INC
+                   SSLEEP   0x0000d4    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  TMR1INT   0x00018d    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  TMR2INT   0x0000d8    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                     TRES   0x000115    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                      UNO   0x0000f5    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000006    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                    BUCLE   0x000010    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                     ES45   0x000015    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                     ES23   0x000018    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                     ES01   0x00001b    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                   BUCLE2   0x00001e    program     static C:\Users\Eva\Desktop\RobotFinal.X\Principal.asm
+                  INI_OSC   0x000024    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                   INI_ES   0x000029    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                  INI_INT   0x000044    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                  INI_ADC   0x000054    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                    DELAY   0x000061    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                     LOOP   0x000063    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                 INI_TMR2   0x000066    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+                 INI_CCP2   0x00006e    program     static C:\Users\Eva\Desktop\RobotFinal.X\INICIALIZACIONES.INC
+             INTERRUPCION   0x000078    program     static C:\Users\Eva\Desktop\RobotFinal.X\INTERRUPCION.INC
+                    SIGUE   0x000087    program     static C:\Users\Eva\Desktop\RobotFinal.X\INTERRUPCION.INC
+                   SIGUE1   0x00008f    program     static C:\Users\Eva\Desktop\RobotFinal.X\INTERRUPCION.INC
+                      LDR   0x000099    program     static C:\Users\Eva\Desktop\RobotFinal.X\LDR.INC
+                   LED_ON   0x00009f    program     static C:\Users\Eva\Desktop\RobotFinal.X\LDR.INC
+                  RETARDO   0x0000a1    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   CUENTA   0x0000a3    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                 RETARDO2   0x0000a6    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA2   0x0000a8    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA3   0x0000ab    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA4   0x0000ad    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA5   0x0000b0    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  CUENTA6   0x0000b2    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                 RETARDO3   0x0000b5    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN2   0x0000b7    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN3   0x0000ba    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN4   0x0000bc    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN5   0x0000bf    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CUEN6   0x0000c1    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  APLAUSO   0x0000c4    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   CNTPAL   0x0000cf    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   NOCERO   0x0000d1    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   SSLEEP   0x0000d4    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  TMR2INT   0x0000d8    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                     CERO   0x0000e3    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO0   0x0000f0    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                      UNO   0x0000f5    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO1   0x000100    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                      DOS   0x000105    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO2   0x000110    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                     TRES   0x000115    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO3   0x000120    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   CUATRO   0x000125    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  LEDSNO4   0x000130    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                    CINCO   0x000135    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   CCPINT   0x00014c    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   BAJADA   0x000156    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                   OBSTAC   0x000166    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                 NOOBSTAC   0x00018a    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+                  TMR1INT   0x00018d    program     static C:\Users\Eva\Desktop\RobotFinal.X\SUBRUTINAS.INC
+
+
